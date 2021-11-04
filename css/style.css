@@ -1,0 +1,28 @@
+
+.box {
+    height: 650px;
+    width: 100%;
+    position: relative;
+
+}
+.bg-wrapper {
+    left: 150px;
+    top: 200px;
+    position: absolute;
+
+}
+.cover{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+.button {
+    width: 100px;
+    border-radius: 25px;
+    padding: 10px;
+    background: red;
+}
