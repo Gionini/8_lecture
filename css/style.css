@@ -1,4 +1,4 @@
-
+/* position property
 .box {
     height: 650px;
     width: 100%;
@@ -16,7 +16,8 @@
     width: 100%;
     top: 0px;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.51);
+   
 
 
 }
@@ -25,4 +26,15 @@
     border-radius: 25px;
     padding: 10px;
     background: red;
+} */
+.bg-image {
+    background-image: url(../image/Human_eye_pillars.jpg);
+    height: 450px;
+    width: 600px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bg-wrapper {
+    padding-top: 100px;
 }
